@@ -1,0 +1,148 @@
+body {
+  height: 100%;
+}
+.content {
+  max-width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  box-sizing: border-box;
+}
+.main_header {
+  padding: 10px;
+  height: 50px;
+  display: flex;
+  border-bottom: 1px solid red;
+  align-items: center;
+}
+.main_header .logo {
+  width: 50px;
+  margin-right: 15px;
+}
+.main_header h1{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.post_form img {
+  width: 60px;
+  padding-right: 20px;
+  float: left;
+  position: relative;
+  padding-bottom: 100px;
+}
+.posts li {
+  display: flex;
+  border-bottom: 1px solid red;
+  position: relative;
+  padding: 20px 40px;
+}
+.posts .icon img{
+  width: 20px;
+}
+.posts li .logo {
+  flex-basis: 15%;
+}
+.posts .logo img {
+  width: 60%;
+}
+.posts li .name_body {
+  flex-basis: 85%;
+}
+.posts li .name_body .name {
+  font-weight: bold;
+}
+.posts li .name_body .datetime {
+  color: gray;
+}
+/*
+posts
+*/
+.posts ul {
+  padding: 0;
+  
+}
+@media screen and (max-width: 500px) {
+  .posts li .name_body .name {
+    font-size: 40px;
+  }
+}
+/*
+form
+*/
+.post_form {
+  padding: 20px;
+  border-bottom: 1px solid red;
+}
+.post_form input {
+  width: 75%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #e6fef7;
+  border-radius: 5px;
+  border: 0px;
+}
+.post_form #myfile {
+  margin: 0px;
+  background: none;
+}
+.post_form .btn {
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+.post_form .bottom {
+  display: flex;
+}
+.post_form textarea {
+  width: 75%;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.posts li .menu_icon {
+  width: 20px;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+.posts li .menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 10px 20px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.posts li .menu a {
+  text-decoration: none;
+}
+
+.update {
+  display: flex;
+  padding: 5px;
+}
+
+.update #delete {
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  width: 90px;
+}
+
+.update #update {
+  margin-left: 55%;
+  width: 20%;
+  color: white;
+  font-weight: bold;
+  background-color: #1DA1F2;
+}
