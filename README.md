@@ -4,7 +4,7 @@ To make the project simple, we do not have a sign/login function.
 So there are not user accounts and follow function. You can challenge after you finish the course.
 [Live deployment](https://twitter-clone-desmond.herokuapp.com/)
 
-#Tech Used
+# Tech Used
 * Html
 * Css
 * Bootstrap
