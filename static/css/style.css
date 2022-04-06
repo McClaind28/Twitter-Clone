@@ -62,11 +62,7 @@ posts
   padding: 0;
   
 }
-@media screen and (max-width: 500px) {
-  .posts li .name_body .name {
-    font-size: 40px;
-  }
-}
+
 /*
 form
 */
@@ -145,4 +141,17 @@ form
   color: white;
   font-weight: bold;
   background-color: #1DA1F2;
+}
+
+@media screen and (max-width: 450px) {
+  .posts li .name_body .name {
+    font-size: 25px;
+  }
+  .post_form img {
+    padding-bottom: 20px;
+  }
+  .update #update {
+    margin-left: 40%;
+    width: 25%;
+  }
 }
